@@ -36,8 +36,9 @@ namespace testAPI
                 options.Database = Configuration.GetSection("MongoDb:Database").Value;
             });
 
-            services.AddTransient<IGameContext,GameContext>();
+            services.AddTransient<IDbContext,DbContext>();
             services.AddTransient<IGameRepository,GameRepository>();
+            services.AddTransient<INoteRepository, NoteRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

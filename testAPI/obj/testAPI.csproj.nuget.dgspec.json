@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahbub\\Desktop\\testMongo\\testAPI\\testAPI.csproj": {}
+    "C:\\Users\\mahbub\\Desktop\\dotnetCore-with-MongoDB\\testAPI\\testAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahbub\\Desktop\\testMongo\\testAPI\\testAPI.csproj": {
+    "C:\\Users\\mahbub\\Desktop\\dotnetCore-with-MongoDB\\testAPI\\testAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahbub\\Desktop\\testMongo\\testAPI\\testAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mahbub\\Desktop\\dotnetCore-with-MongoDB\\testAPI\\testAPI.csproj",
         "projectName": "testAPI",
-        "projectPath": "C:\\Users\\mahbub\\Desktop\\testMongo\\testAPI\\testAPI.csproj",
+        "projectPath": "C:\\Users\\mahbub\\Desktop\\dotnetCore-with-MongoDB\\testAPI\\testAPI.csproj",
         "packagesPath": "C:\\Users\\mahbub\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahbub\\Desktop\\testMongo\\testAPI\\obj\\",
+        "outputPath": "C:\\Users\\mahbub\\Desktop\\dotnetCore-with-MongoDB\\testAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -5,15 +5,22 @@ using testAPI.Model;
 
 namespace testAPI.DBContext
 {
-    public class GameContext : IGameContext
+    public class DbContext : IDbContext
     {
         private readonly IMongoDatabase _db;
 
-        public GameContext(IOptions<Settings> options)
+        public DbContext(IOptions<Settings> options)
         {
             var client = new MongoClient(options.Value.ConnectionString);
             _db = client.GetDatabase(options.Value.Database);
         }
         public IMongoCollection<Game> Games => _db.GetCollection<Game>("Games");
+
+        public IMongoCollection<Note> Notes 
+        {
+            get{
+                return _db.GetCollection<Note>("Notes");
+            }
+        }
     }
 }

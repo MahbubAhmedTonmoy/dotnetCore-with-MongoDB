@@ -8,9 +8,9 @@ namespace testAPI.Repository
 {
     public class GameRepository : IGameRepository
     {
-        private readonly IGameContext _context;
+        private readonly IDbContext _context;
         
-        public GameRepository(IGameContext context)
+        public GameRepository(IDbContext context)
         {
             _context = context;
         }

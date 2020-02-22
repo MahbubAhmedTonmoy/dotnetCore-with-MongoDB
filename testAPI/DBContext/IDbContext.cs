@@ -3,7 +3,7 @@ using testAPI.Model;
 
 namespace testAPI.DBContext
 {
-    public interface IGameContext
+    public interface IDbContext
     {
          IMongoCollection<Game> Games {get;}
     }
